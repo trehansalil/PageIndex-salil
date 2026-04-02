@@ -1,6 +1,10 @@
 [project]
 name = "pageindex"
 version = "0.1.0"
+description = "Tools for indexing and processing pages in PDF and related documents."
+readme = "README.md"
+license = { text = "Proprietary" }
+authors = [{ name = "pageindex developers" }]
 requires-python = ">=3.12"
 dependencies = ["litellm", "pymupdf", "PyPDF2", "python-dotenv", "pyyaml"]
 
